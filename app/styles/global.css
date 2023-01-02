@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(201, 201, 201);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  height: 3rem;
+  background: rgb(129, 101, 101);
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: aqua;
+}
