@@ -1,5 +1,5 @@
 import BackLink from "~/components/BackLink";
-import nature from "./imges/nature.jpg";
+import nature from "~/imges/nature.jpg";
 
 const About = () => {
   return (
