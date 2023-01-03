@@ -2,7 +2,7 @@ import BackLink from "~/components/BackLink";
 
 const Services = () => {
   return (
-    <div>
+    <div className="main-page">
       <div className="nav">
         <BackLink />
       </div>
