@@ -1,5 +1,7 @@
 import BackLink from "~/components/BackLink";
 import nature from "~/imges/nature.jpg";
+import image from "~/imges/nature-two.jpg";
+import imagenew from "~/imges/nature-3.jpg";
 
 const About = () => {
   return (
@@ -8,7 +10,7 @@ const About = () => {
         <BackLink />
       </div>
       <div className="about">
-        <h1>About Page</h1>
+        <h1>About my photography work</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum
           quas beatae autem ad impedit. Officia, corrupti delectus? Sed
@@ -23,8 +25,18 @@ const About = () => {
           minus ab deserunt rem reiciendis laudantium tempora consequuntur,
           earum fugit perferendis! Laudantium.
         </p>
-
-        <img className="about-img" src={nature} alt="nature" />
+        <h2>Nature photos</h2>
+        <div className="image-row">
+          <div className="image-column">
+            <img src={nature} alt="nature" />
+          </div>
+          <div className="image-column">
+            <img src={image} alt="Forest" />
+          </div>
+          <div className="image-column">
+            <img src={imagenew} alt="Mountains" />
+          </div>
+        </div>
       </div>
     </div>
   );
