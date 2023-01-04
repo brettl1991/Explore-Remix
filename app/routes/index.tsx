@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div className="main-page">
       <div className="header">
-        <h1>Home Page</h1>
+        <h1>Agn Photography</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
       <div className="nav">
@@ -41,7 +41,7 @@ const Main = () => {
         </div>
       </div>
       <div className="footer">
-        <h2>Footer</h2>
+        <h2>&copy; Agn Photography 2023</h2>
       </div>
     </div>
   );
