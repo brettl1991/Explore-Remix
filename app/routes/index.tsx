@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import photographer from "~/imges/photographer.jpg";
 
 const Main = () => {
   return (
@@ -38,6 +39,7 @@ const Main = () => {
             numquam maxime doloribus iste aliquam nemo, dicta corporis adipisci
             vel repellendus quasi. Quos, voluptate.
           </p>
+          <img src={photographer} alt="photographer" />
         </div>
       </div>
       <div className="footer">
