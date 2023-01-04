@@ -67,6 +67,14 @@ const About = () => {
             <img src={nemo} alt="nemofishes" />
           </div>
         </div>
+        <h2 className="about-contact">
+          For more photos please{" "}
+          <a href="https://linkedin.com/in/agnes-brettl-55b5a5a0">CONTACT</a>{" "}
+          me!
+        </h2>
+      </div>
+      <div className="footer">
+        <h2>&copy; Agn Photography 2023</h2>
       </div>
     </div>
   );
