@@ -2,6 +2,12 @@ import BackLink from "~/components/BackLink";
 import nature from "~/imges/nature.jpg";
 import image from "~/imges/nature-two.jpg";
 import imagenew from "~/imges/nature-3.jpg";
+import zebra from "~/imges/zebra.jpg";
+import elephant from "~/imges/elephant.jpg";
+import lion from "~/imges/lion.jpg";
+import turtle from "~/imges/turtle.jpg";
+import doplhin from "~/imges/dolphin.jpg";
+import nemo from "~/imges/nemo.jpg";
 
 const About = () => {
   return (
@@ -31,10 +37,34 @@ const About = () => {
             <img src={nature} alt="nature" />
           </div>
           <div className="image-column">
-            <img src={image} alt="Forest" />
+            <img src={image} alt="nature" />
           </div>
           <div className="image-column">
-            <img src={imagenew} alt="Mountains" />
+            <img src={imagenew} alt="nature" />
+          </div>
+        </div>
+        <h2>Wild animal photos</h2>
+        <div className="image-row">
+          <div className="image-column">
+            <img src={zebra} alt="zebra" />
+          </div>
+          <div className="image-column">
+            <img src={elephant} alt="elephant" />
+          </div>
+          <div className="image-column">
+            <img src={lion} alt="lion" />
+          </div>
+        </div>
+        <h2>Sea life photos</h2>
+        <div className="image-row">
+          <div className="image-column">
+            <img src={turtle} alt="turtle" />
+          </div>
+          <div className="image-column">
+            <img src={doplhin} alt="dolphin" />
+          </div>
+          <div className="image-column">
+            <img src={nemo} alt="nemofishes" />
           </div>
         </div>
       </div>
