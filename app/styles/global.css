@@ -43,7 +43,7 @@ body {
 }
 
 .link:hover {
-  color: aqua;
+  color: rgb(181, 242, 146);
 }
 
 .row {
@@ -124,6 +124,9 @@ body {
 .about h2 {
   margin: 30px 0;
   font-size: 16px;
+  padding: 3px;
+  border: 4px solid rgb(3, 75, 17);
+  text-align: center;
 }
 
 .image-row {
@@ -138,4 +141,21 @@ body {
 .image-column img {
   width: 100%;
   height: 100%;
+}
+
+.about .about-contact {
+  padding: 3px;
+  font-size: 18px;
+  border: 4px solid rgb(3, 75, 17);
+  text-align: center;
+}
+
+.about .about-contact a {
+  font-size: 22px;
+  color: rgb(46, 148, 75);
+  text-decoration: none;
+}
+
+.about .about-contact a:hover {
+  color: rgb(90, 70, 70);
 }
