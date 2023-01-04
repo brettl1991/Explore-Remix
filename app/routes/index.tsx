@@ -5,7 +5,7 @@ const Main = () => {
     <div className="main-page">
       <div className="header">
         <h1>Agn Photography</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>Where the photos come to live</p>
       </div>
       <div className="nav">
         <Link className="link" to="/about">
