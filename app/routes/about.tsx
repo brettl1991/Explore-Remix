@@ -69,7 +69,12 @@ const About = () => {
         </div>
         <h2 className="about-contact">
           For more photos please{" "}
-          <a href="https://linkedin.com/in/agnes-brettl-55b5a5a0">CONTACT</a>{" "}
+          <a
+            href="https://linkedin.com/in/agnes-brettl-55b5a5a0"
+            target="_blank"
+          >
+            CONTACT
+          </a>{" "}
           me!
         </h2>
       </div>
